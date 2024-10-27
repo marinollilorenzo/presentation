@@ -1,0 +1,167 @@
+body{
+    background-color: #B6E5F3;
+    font-family: Arial, sans-serif, Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+.footer{
+    float: left;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+img{
+    width: 100%;
+}
+.imgProgettiScolastici{
+    width: 150px;
+    height: 150px;
+}
+.imgAboutMe{
+    width: 75%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.imgFooter{
+    width: 2%;
+}
+a{
+    color: black;
+    margin: 0 2em 0 2em;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.buttonHeader{
+    text-align: right;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    border-bottom: solid black;
+}
+.buttonHeaderAboutMe{
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.tittle{
+    color: black;
+    font-weight: bold;
+    padding: 1em 1em 0 1em;
+}
+.pagina{
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    background-color: aliceblue;
+    box-shadow: 8px 15px 10px #888888;
+}
+p{
+    color: black;
+    clear: both;
+    font-weight: bold;
+    font-size: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 30%;
+    background-color: 	#8ad5ec;
+    box-shadow: 5px 5px  10px #888888;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s;
+    height: 100%;
+}
+.post:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 10px  10px #888888;;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: xx-large;
+    padding-left: 15%;
+    padding-top: 15%;
+    line-height: 170%;
+}
+h4{
+    margin-left: 2em;
+}
+li{
+    margin-left: 2em;
+    margin-right: 4em;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    max-height: max-content;
+   }
+.column2{
+    width: 33%;
+    max-height: max-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.columnImmagine{
+    width: 33%;
+    float: left;
+    max-height: max-content;
+    text-align: center;
+}
+.columnImmagineAboutMe {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    max-height: max-content;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.columnTesto{
+    width: 75%;
+    float: left;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+  }
+  .separator{
+    height: 100px;
+  }
